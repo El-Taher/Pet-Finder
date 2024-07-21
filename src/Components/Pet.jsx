@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 export const Pet = ({ name, animal, breed, images, location, id }) => {
-  let animalImage = 'http://pets-images.dev-apis.com/pets/none.jpg';
+  let animalImage = 'https://pets-images.dev-apis.com/pets/none.jpg';
   if (images.length) {
     animalImage = images[0];
   }
